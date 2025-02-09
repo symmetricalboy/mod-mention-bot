@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "admin-mention-bot"
+version = "0.1.0"
+description = "A simple Telegram bot that allows users to get the attention of all admins in a group chat by mentioning @admin in their messages."
+authors = ["symmetricalboy <email@symmetricalboy.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-telegram-bot = "^21.10"
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
